@@ -6,10 +6,10 @@ import sponsorThree from 'assets/landing/sponsor3.png';
 
 const Hero: React.FC = () => {
   return (
-    <div className="flex items-center justify-between bg-cover bg-center">
+    <div className="flex items-center justify-between bg-cover bg-center pt-32">
       <div className="w-1/2">
         <h1 className="text-4xl font-bold mb-4">Learn, Buy & Sell Crypto Easily</h1>
-        <p className="text-xl mb-8">Learn, Buy & Sell Crypto Easily</p>
+        <p className="text-xl mb-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
         <button className="bg-blue-500 text-white px-4 py-2 rounded">Get Started Now</button>
         <div className="p-8">
           <h3 className="text-2xl font-bold mb-8">Our Sponsors</h3>
