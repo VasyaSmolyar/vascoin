@@ -1,6 +1,7 @@
 import { useContext, useEffect, useState } from "react"
 import Logo from "../logo"
-import ThemeToggle from "./toggle"
+import ThemeToggle from './toggle/theme'
+import LangToggle from "./toggle/lang"
 import { ThemeContext } from "components/utils/theme"
 
 const Header: React.FC = () => {
@@ -35,6 +36,9 @@ const Header: React.FC = () => {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <ThemeToggle />
+              </li>
+              <li>
+                <LangToggle />
               </li>
               <li>
                 <a href="/signin" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Sign in</a>
