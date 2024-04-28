@@ -11,7 +11,7 @@ const Page: React.FC<PageProps> = ({children}) => {
   return (
 		<>
 			<Header />
-				{children}
+        <div className="max-w-6xl mx-auto px-5 sm:px-6">{children}</div>
 			<Footer />
 		</>
 	);
