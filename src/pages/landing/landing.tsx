@@ -23,10 +23,22 @@ const Landing: React.FC = () => {
     }
   ];
 
+  const chipsData = [
+    { text: "Crypto", isHighlighted: true },
+    { text: "Defi" },
+    { text: "BSC" },
+    { text: "NFT" },
+    { text: "Metaverse" },
+    { text: "Polkadot" },
+    { text: "Solana" },
+    { text: "Opensea" },
+    { text: "Makersplace" },
+  ];
+
   return (
     <Page>
       <Hero />
-      <Overview assets={dummyData} />
+      <Overview assets={dummyData} chips={chipsData} />
     </Page>
   );
 }
