@@ -11,11 +11,16 @@ const Landing: React.FC = () => {
     {
       name: 'Ethereum',
       price: 3200,
+      isHighlighted: true
     },
     {
-      name: 'Binance Coin',
-      price: 400,
+      name: 'Tether',
+      price: 1,
     },
+    {
+      name: 'Bitcoin',
+      price: 49000,
+    }
   ];
 
   return (
